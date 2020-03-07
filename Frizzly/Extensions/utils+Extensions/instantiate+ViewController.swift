@@ -35,12 +35,12 @@ extension AppDelegate {
             } catch let signOutError as NSError {
                 print ("Error signing out: %@", signOutError)
             }
-            let VC = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
+            let VC = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") 
             appDelegate.window?.rootViewController = VC
             appDelegate.window?.makeKeyAndVisible()
         }
         else if loginstatus == true {
-            let tap = mainStoryboard.instantiateViewController(withIdentifier: "tapBar") as! UITabBarController
+            let tap = mainStoryboard.instantiateViewController(withIdentifier: "ProfileSetUpViewController") as! ProfileSetUpViewController
             appDelegate.window?.rootViewController = tap
             appDelegate.window?.makeKeyAndVisible()
         }

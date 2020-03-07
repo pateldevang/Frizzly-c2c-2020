@@ -28,6 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate  {
         // Setting up initial view controller
         setInitialViewController()
         
+        // Increse Launch Time
+        Thread.sleep(forTimeInterval: 1.5)
+        
         return true
     }
 

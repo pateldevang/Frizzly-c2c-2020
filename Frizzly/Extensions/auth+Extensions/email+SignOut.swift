@@ -22,7 +22,7 @@ extension UIViewController {
             GIDSignIn.sharedInstance().signOut()
             print("SignOut sucessful")
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let controller = storyboard.instantiateViewController(withIdentifier: "loginPageViewController")
+            let controller = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
             self.present(controller, animated: true, completion: nil)
         } catch let signOutError as NSError {
             print ("Error signing out: %@", signOutError)
