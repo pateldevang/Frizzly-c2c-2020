@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileSetUpViewController: UIViewController {
 
@@ -14,6 +15,9 @@ class ProfileSetUpViewController: UIViewController {
     @IBOutlet weak var code: UITextField!
     @IBOutlet weak var netact: UIActivityIndicatorView!
     
+    // Variables
+    var ref : DatabaseReference!
+    var codeA : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +27,12 @@ class ProfileSetUpViewController: UIViewController {
         hideKeyboardWhenTappedAround()
         // Hide activity monitor
         self.netact.isHidden = true
+        
+//        ref = Database.database().reference()
+//        print("---------------------------")
+//        self.ref!.child("AcessCode").setValue(["Acess": "1239"])
+        
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -41,8 +51,20 @@ class ProfileSetUpViewController: UIViewController {
     
     
     @IBAction func submit(_ sender: Any) {
+        print("---------------------------")
         self.netact.isHidden = false
         netact.startAnimating()
+        ref = Database.database().reference()
+        ref?.child("AcessCode").observe(.childAdded, with: { (snapshot) in
+//            print(snapshot.value)
+            self.codeA = snapshot.value as! String
+            print(self.codeA)
+            if (self.code.text == self.codeA) {
+                self.performSegue(withIdentifier: "toTab", sender: self)
+            }
+        })
+        
+        
     }
     
 }
