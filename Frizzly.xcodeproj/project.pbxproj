@@ -14,6 +14,17 @@
 		7752CDD0241411B700231341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDCF241411B700231341 /* Assets.xcassets */; };
 		7752CDD3241411B700231341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDD1241411B700231341 /* LaunchScreen.storyboard */; };
 		7752CDDB24141D3500231341 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDDA24141D3400231341 /* GoogleService-Info.plist */; };
+		77ACA2CF24141F680048F1DE /* checkNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C524141F680048F1DE /* checkNetwork.swift */; };
+		77ACA2D024141F680048F1DE /* custom+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C624141F680048F1DE /* custom+Navigation.swift */; };
+		77ACA2D124141F680048F1DE /* keyboard+Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C724141F680048F1DE /* keyboard+Hide.swift */; };
+		77ACA2D224141F680048F1DE /* instantiate+ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C824141F680048F1DE /* instantiate+ViewController.swift */; };
+		77ACA2D324141F680048F1DE /* alert+Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2CA24141F680048F1DE /* alert+Function.swift */; };
+		77ACA2D424141F680048F1DE /* haptic+Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2CB24141F680048F1DE /* haptic+Feedback.swift */; };
+		77ACA2D524141F680048F1DE /* google+SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2CD24141F680048F1DE /* google+SignIn.swift */; };
+		77ACA2D624141F680048F1DE /* email+SignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2CE24141F680048F1DE /* email+SignOut.swift */; };
+		77ACA2DE24141F840048F1DE /* constant+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2D924141F830048F1DE /* constant+Functions.swift */; };
+		77ACA2E124141F840048F1DE /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2DC24141F830048F1DE /* RoundedCornerView.swift */; };
+		77ACA2E424141F8B0048F1DE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2E324141F8B0048F1DE /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		7752CDD2241411B700231341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7752CDD4241411B700231341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7752CDDA24141D3400231341 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77ACA2C524141F680048F1DE /* checkNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkNetwork.swift; sourceTree = "<group>"; };
+		77ACA2C624141F680048F1DE /* custom+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "custom+Navigation.swift"; sourceTree = "<group>"; };
+		77ACA2C724141F680048F1DE /* keyboard+Hide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "keyboard+Hide.swift"; sourceTree = "<group>"; };
+		77ACA2C824141F680048F1DE /* instantiate+ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "instantiate+ViewController.swift"; sourceTree = "<group>"; };
+		77ACA2CA24141F680048F1DE /* alert+Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "alert+Function.swift"; sourceTree = "<group>"; };
+		77ACA2CB24141F680048F1DE /* haptic+Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "haptic+Feedback.swift"; sourceTree = "<group>"; };
+		77ACA2CD24141F680048F1DE /* google+SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "google+SignIn.swift"; sourceTree = "<group>"; };
+		77ACA2CE24141F680048F1DE /* email+SignOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "email+SignOut.swift"; sourceTree = "<group>"; };
+		77ACA2D924141F830048F1DE /* constant+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "constant+Functions.swift"; sourceTree = "<group>"; };
+		77ACA2DC24141F830048F1DE /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		77ACA2E324141F8B0048F1DE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.debug.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.debug.xcconfig"; sourceTree = "<group>"; };
 		CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frizzly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,14 +86,89 @@
 			isa = PBXGroup;
 			children = (
 				7752CDC8241411B400231341 /* AppDelegate.swift */,
-				7752CDCA241411B400231341 /* ViewController.swift */,
-				7752CDCC241411B400231341 /* Main.storyboard */,
+				77ACA2E6241422460048F1DE /* Controllers */,
+				77ACA2E52414222C0048F1DE /* View */,
+				77ACA2C324141F680048F1DE /* Extensions */,
+				77ACA2E224141F8B0048F1DE /* Services */,
+				77ACA2D724141F830048F1DE /* Helpers */,
 				7752CDCF241411B700231341 /* Assets.xcassets */,
-				7752CDD1241411B700231341 /* LaunchScreen.storyboard */,
 				7752CDD4241411B700231341 /* Info.plist */,
 				7752CDDA24141D3400231341 /* GoogleService-Info.plist */,
 			);
 			path = Frizzly;
+			sourceTree = "<group>";
+		};
+		77ACA2C324141F680048F1DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2C424141F680048F1DE /* utils+Extensions */,
+				77ACA2C924141F680048F1DE /* alertNhaptic+Extensions */,
+				77ACA2CC24141F680048F1DE /* auth+Extensions */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77ACA2C424141F680048F1DE /* utils+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2C524141F680048F1DE /* checkNetwork.swift */,
+				77ACA2C624141F680048F1DE /* custom+Navigation.swift */,
+				77ACA2C724141F680048F1DE /* keyboard+Hide.swift */,
+				77ACA2C824141F680048F1DE /* instantiate+ViewController.swift */,
+			);
+			path = "utils+Extensions";
+			sourceTree = "<group>";
+		};
+		77ACA2C924141F680048F1DE /* alertNhaptic+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2CA24141F680048F1DE /* alert+Function.swift */,
+				77ACA2CB24141F680048F1DE /* haptic+Feedback.swift */,
+			);
+			path = "alertNhaptic+Extensions";
+			sourceTree = "<group>";
+		};
+		77ACA2CC24141F680048F1DE /* auth+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2CD24141F680048F1DE /* google+SignIn.swift */,
+				77ACA2CE24141F680048F1DE /* email+SignOut.swift */,
+			);
+			path = "auth+Extensions";
+			sourceTree = "<group>";
+		};
+		77ACA2D724141F830048F1DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2D924141F830048F1DE /* constant+Functions.swift */,
+				77ACA2DC24141F830048F1DE /* RoundedCornerView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		77ACA2E224141F8B0048F1DE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77ACA2E324141F8B0048F1DE /* Reachability.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77ACA2E52414222C0048F1DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7752CDCC241411B400231341 /* Main.storyboard */,
+				7752CDD1241411B700231341 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77ACA2E6241422460048F1DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7752CDCA241411B400231341 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		A897B878FB3D38967CB3852E /* Pods */ = {
@@ -241,8 +338,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77ACA2D024141F680048F1DE /* custom+Navigation.swift in Sources */,
+				77ACA2D524141F680048F1DE /* google+SignIn.swift in Sources */,
+				77ACA2D424141F680048F1DE /* haptic+Feedback.swift in Sources */,
+				77ACA2D124141F680048F1DE /* keyboard+Hide.swift in Sources */,
+				77ACA2DE24141F840048F1DE /* constant+Functions.swift in Sources */,
+				77ACA2D624141F680048F1DE /* email+SignOut.swift in Sources */,
+				77ACA2D224141F680048F1DE /* instantiate+ViewController.swift in Sources */,
+				77ACA2E424141F8B0048F1DE /* Reachability.swift in Sources */,
+				77ACA2CF24141F680048F1DE /* checkNetwork.swift in Sources */,
+				77ACA2D324141F680048F1DE /* alert+Function.swift in Sources */,
 				7752CDCB241411B400231341 /* ViewController.swift in Sources */,
 				7752CDC9241411B400231341 /* AppDelegate.swift in Sources */,
+				77ACA2E124141F840048F1DE /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
