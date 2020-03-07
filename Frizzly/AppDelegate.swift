@@ -62,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate  {
             
             // Access the storyboard and fetch an instance of the view controller
             let storyboard = UIStoryboard(name: "Main", bundle: nil);
-            let viewController: profileSetUpViewController = storyboard.instantiateViewController(withIdentifier: "profileSetUpViewController") as! profileSetUpViewController
+            let viewController: ProfileSetUpViewController = storyboard.instantiateViewController(withIdentifier: "ProfileSetUpViewController") as! ProfileSetUpViewController
             
             // Then push that view controller onto the navigation stack
             let rootViewController = self.window!.rootViewController

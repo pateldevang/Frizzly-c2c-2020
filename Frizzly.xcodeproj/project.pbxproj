@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6E725798346BBE9F6F3A08AE /* Pods_Frizzly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */; };
 		7752CDC9241411B400231341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752CDC8241411B400231341 /* AppDelegate.swift */; };
-		7752CDCB241411B400231341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752CDCA241411B400231341 /* ViewController.swift */; };
 		7752CDCE241411B400231341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDCC241411B400231341 /* Main.storyboard */; };
 		7752CDD0241411B700231341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDCF241411B700231341 /* Assets.xcassets */; };
 		7752CDD3241411B700231341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDD1241411B700231341 /* LaunchScreen.storyboard */; };
@@ -25,13 +24,15 @@
 		77ACA2DE24141F840048F1DE /* constant+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2D924141F830048F1DE /* constant+Functions.swift */; };
 		77ACA2E124141F840048F1DE /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2DC24141F830048F1DE /* RoundedCornerView.swift */; };
 		77ACA2E424141F8B0048F1DE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2E324141F8B0048F1DE /* Reachability.swift */; };
+		77ACA2E8241422F90048F1DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2E7241422F90048F1DE /* LoginViewController.swift */; };
+		77ACA2EA2414230D0048F1DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2E92414230D0048F1DE /* SignInViewController.swift */; };
+		77ACA2EC241423430048F1DE /* ProfileSetUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2EB241423430048F1DE /* ProfileSetUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		66FD6098A7B71F0DE7CD0EF7 /* Pods-Frizzly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.release.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.release.xcconfig"; sourceTree = "<group>"; };
 		7752CDC5241411B400231341 /* Frizzly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frizzly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752CDC8241411B400231341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7752CDCA241411B400231341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7752CDCD241411B400231341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7752CDCF241411B700231341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7752CDD2241411B700231341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +49,9 @@
 		77ACA2D924141F830048F1DE /* constant+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "constant+Functions.swift"; sourceTree = "<group>"; };
 		77ACA2DC24141F830048F1DE /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
 		77ACA2E324141F8B0048F1DE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		77ACA2E7241422F90048F1DE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		77ACA2E92414230D0048F1DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		77ACA2EB241423430048F1DE /* ProfileSetUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetUpViewController.swift; sourceTree = "<group>"; };
 		A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.debug.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.debug.xcconfig"; sourceTree = "<group>"; };
 		CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frizzly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,7 +170,9 @@
 		77ACA2E6241422460048F1DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7752CDCA241411B400231341 /* ViewController.swift */,
+				77ACA2E7241422F90048F1DE /* LoginViewController.swift */,
+				77ACA2E92414230D0048F1DE /* SignInViewController.swift */,
+				77ACA2EB241423430048F1DE /* ProfileSetUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -338,18 +344,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77ACA2EA2414230D0048F1DE /* SignInViewController.swift in Sources */,
 				77ACA2D024141F680048F1DE /* custom+Navigation.swift in Sources */,
 				77ACA2D524141F680048F1DE /* google+SignIn.swift in Sources */,
 				77ACA2D424141F680048F1DE /* haptic+Feedback.swift in Sources */,
 				77ACA2D124141F680048F1DE /* keyboard+Hide.swift in Sources */,
 				77ACA2DE24141F840048F1DE /* constant+Functions.swift in Sources */,
+				77ACA2EC241423430048F1DE /* ProfileSetUpViewController.swift in Sources */,
 				77ACA2D624141F680048F1DE /* email+SignOut.swift in Sources */,
 				77ACA2D224141F680048F1DE /* instantiate+ViewController.swift in Sources */,
 				77ACA2E424141F8B0048F1DE /* Reachability.swift in Sources */,
 				77ACA2CF24141F680048F1DE /* checkNetwork.swift in Sources */,
 				77ACA2D324141F680048F1DE /* alert+Function.swift in Sources */,
-				7752CDCB241411B400231341 /* ViewController.swift in Sources */,
 				7752CDC9241411B400231341 /* AppDelegate.swift in Sources */,
+				77ACA2E8241422F90048F1DE /* LoginViewController.swift in Sources */,
 				77ACA2E124141F840048F1DE /* RoundedCornerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

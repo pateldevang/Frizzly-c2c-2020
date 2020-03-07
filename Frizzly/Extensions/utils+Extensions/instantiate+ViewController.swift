@@ -35,7 +35,7 @@ extension AppDelegate {
             } catch let signOutError as NSError {
                 print ("Error signing out: %@", signOutError)
             }
-            let VC = mainStoryboard.instantiateViewController(withIdentifier: "loginPageViewController") as! loginPageViewController
+            let VC = mainStoryboard.instantiateViewController(withIdentifier: "LoginViewController") as! LoginViewController
             appDelegate.window?.rootViewController = VC
             appDelegate.window?.makeKeyAndVisible()
         }
