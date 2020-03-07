@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E725798346BBE9F6F3A08AE /* Pods_Frizzly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */; };
 		7752CDC9241411B400231341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752CDC8241411B400231341 /* AppDelegate.swift */; };
 		7752CDCB241411B400231341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7752CDCA241411B400231341 /* ViewController.swift */; };
 		7752CDCE241411B400231341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDCC241411B400231341 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		66FD6098A7B71F0DE7CD0EF7 /* Pods-Frizzly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.release.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.release.xcconfig"; sourceTree = "<group>"; };
 		7752CDC5241411B400231341 /* Frizzly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frizzly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7752CDC8241411B400231341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7752CDCA241411B400231341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		7752CDCF241411B700231341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7752CDD2241411B700231341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7752CDD4241411B700231341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.debug.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.debug.xcconfig"; sourceTree = "<group>"; };
+		CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frizzly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E725798346BBE9F6F3A08AE /* Pods_Frizzly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				7752CDC7241411B400231341 /* Frizzly */,
 				7752CDC6241411B400231341 /* Products */,
+				A897B878FB3D38967CB3852E /* Pods */,
+				E72E70A4A4CD92F504028C93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,24 @@
 			path = Frizzly;
 			sourceTree = "<group>";
 		};
+		A897B878FB3D38967CB3852E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */,
+				66FD6098A7B71F0DE7CD0EF7 /* Pods-Frizzly.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E72E70A4A4CD92F504028C93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7752CDD7241411B700231341 /* Build configuration list for PBXNativeTarget "Frizzly" */;
 			buildPhases = (
+				7C816590C653CE98AA7BD8A4 /* [CP] Check Pods Manifest.lock */,
 				7752CDC1241411B400231341 /* Sources */,
 				7752CDC2241411B400231341 /* Frameworks */,
 				7752CDC3241411B400231341 /* Resources */,
+				A8E7A597680512AFB79ABFFA /* [CP] Embed Pods Frameworks */,
+				C99E0379B978E4BD7E1C3699 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +157,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C816590C653CE98AA7BD8A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frizzly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E7A597680512AFB79ABFFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Frizzly/Pods-Frizzly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Frizzly/Pods-Frizzly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C99E0379B978E4BD7E1C3699 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Frizzly/Pods-Frizzly-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Frizzly/Pods-Frizzly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7752CDC1241411B400231341 /* Sources */ = {
@@ -280,6 +383,7 @@
 		};
 		7752CDD8241411B700231341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +401,7 @@
 		};
 		7752CDD9241411B700231341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66FD6098A7B71F0DE7CD0EF7 /* Pods-Frizzly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
