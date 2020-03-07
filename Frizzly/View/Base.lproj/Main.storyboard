@@ -413,42 +413,120 @@
             </objects>
             <point key="canvasLocation" x="1830" y="16"/>
         </scene>
-        <!--Item 2-->
+        <!--Set Limit-->
         <scene sceneID="Nz3-sO-7OZ">
             <objects>
                 <viewController id="IQM-A3-ejD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="doi-IO-9Y0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="by1-Sk-ls6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7Rd-92-HHw"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="lkk-Hd-OkO"/>
+                    <tabBarItem key="tabBarItem" title="Set Limit" image="limit" id="lkk-Hd-OkO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhv-gc-f1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3977" y="341"/>
         </scene>
-        <!--Item 1-->
+        <!--Notification-->
+        <scene sceneID="qOo-Ej-1vZ">
+            <objects>
+                <viewController id="8yk-SY-hei" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tk4-g1-p14">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="p7q-gy-x20">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bmY-LR-4hs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Notification" image="notification" id="0rk-5F-gln"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nh5-Lx-IY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4921" y="550"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="M4j-vT-Rh3">
+            <objects>
+                <viewController id="pbg-tA-iXe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lvm-Cw-ahb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="8gY-R7-92A">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="p7o-Dw-rbj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="setting" id="5Zt-2C-H9F"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f7b-Qw-jeO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5848" y="202"/>
+        </scene>
+        <!--Deposit-->
         <scene sceneID="yh3-gF-vZz">
             <objects>
                 <viewController id="Wps-Jo-WG4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FMI-DB-9IE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="pAv-Nd-ghu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hMX-Yf-UzB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="sE0-2x-04s"/>
+                    <tabBarItem key="tabBarItem" title="Deposit" image="Deposit" id="sE0-2x-04s"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1t9-HX-wKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3977" y="-323"/>
+            <point key="canvasLocation" x="3976.8000000000002" y="-377.36131934032989"/>
+        </scene>
+        <!--Report-->
+        <scene sceneID="mCq-RA-mnx">
+            <objects>
+                <viewController id="X6M-MB-eeL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6kx-gl-Rf5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="t2H-0f-0Ak">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ASd-TT-r1r"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Report" image="report" id="Koj-EW-FFq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGZ-dA-4FM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4943" y="-196"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="TuS-gg-Ykm">
             <objects>
-                <tabBarController id="G7q-XV-YLh" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tapBar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="G7q-XV-YLh" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mQh-dZ-57Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -457,14 +535,23 @@
                     <connections>
                         <segue destination="Wps-Jo-WG4" kind="relationship" relationship="viewControllers" id="OPi-qb-dQl"/>
                         <segue destination="IQM-A3-ejD" kind="relationship" relationship="viewControllers" id="SRZ-0Y-8Ix"/>
+                        <segue destination="X6M-MB-eeL" kind="relationship" relationship="viewControllers" id="rLk-tJ-dMN"/>
+                        <segue destination="8yk-SY-hei" kind="relationship" relationship="viewControllers" id="g5e-9i-Va1"/>
+                        <segue destination="pbg-tA-iXe" kind="relationship" relationship="viewControllers" id="W86-RR-ZFf"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lrb-6L-Acl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3025" y="9"/>
+            <point key="canvasLocation" x="2999" y="16"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Deposit" width="14" height="24"/>
         <image name="GSign" width="190" height="45"/>
+        <image name="back12" width="375" height="737"/>
+        <image name="limit" width="22" height="22"/>
+        <image name="notification" width="20" height="22"/>
+        <image name="report" width="22" height="20"/>
+        <image name="setting" width="24" height="24"/>
     </resources>
 </document>

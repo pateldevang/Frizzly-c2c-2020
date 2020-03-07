@@ -40,7 +40,7 @@ extension AppDelegate {
             appDelegate.window?.makeKeyAndVisible()
         }
         else if loginstatus == true {
-            let tap = mainStoryboard.instantiateViewController(withIdentifier: "ProfileSetUpViewController") as! ProfileSetUpViewController
+            let tap = mainStoryboard.instantiateViewController(withIdentifier: "tapBar") as! UITabBarController
             appDelegate.window?.rootViewController = tap
             appDelegate.window?.makeKeyAndVisible()
         }

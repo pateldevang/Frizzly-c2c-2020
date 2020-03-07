@@ -61,6 +61,7 @@ class ProfileSetUpViewController: UIViewController {
             print(self.codeA)
             if (self.code.text == self.codeA) {
                 self.performSegue(withIdentifier: "toTab", sender: self)
+                 UserDefaults.standard.set(true, forKey: "login")
             }
         })
         
