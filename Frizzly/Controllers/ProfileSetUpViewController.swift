@@ -15,6 +15,7 @@ class ProfileSetUpViewController: UIViewController {
     @IBOutlet weak var code: UITextField!
     @IBOutlet weak var netact: UIActivityIndicatorView!
     
+    
     // Variables
     var ref : DatabaseReference!
     var codeA : String = ""
