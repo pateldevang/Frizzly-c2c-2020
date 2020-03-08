@@ -10,7 +10,7 @@ Team Members:
 
 1. Kartikay Agarwal 18BME - UI/UX 
 2. Aakar Mutha 18BIS - Android & Hardware
-3. Sudynesh Talekar 18BCE0809 - Android
+3. Sudynesh Talekar 18BCE0809 - Android & Hardware
 4. Sucheet 18BEE0236 - VR headset
 5. Devang 18BCE0811 - iOS
 
