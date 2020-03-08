@@ -8,11 +8,11 @@ Qualified till round 2
 
 Team Members:
 
-1. Kartikay - UI/UX 
-2. Aakar - Android & Hardware
-3. Sudynesh - Android
-4. Sucheet - VR headset
-5. Devang - iOS
+1. Kartikay Agarwal 18BME - UI/UX 
+2. Aakar Mutha18BIS - Android & Hardware
+3. Sudynesh Talekar 18BCE0809 - Android
+4. Sucheet 18BEE0236 - VR headset
+5. Devang 18BCE0811 - iOS
 
 
 
