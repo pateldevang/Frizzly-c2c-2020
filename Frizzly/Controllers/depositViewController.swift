@@ -13,19 +13,37 @@ class depositViewController: UIViewController, UITableViewDelegate, UITableViewD
 
     @IBOutlet weak var payTable: UITableView!
     
+    @IBOutlet weak var amount: UITextField!
     
     let imgArr = ["bhim","card","emi","netbank","paypal"]
     let textARR = ["UPI BHIM","Credit/Debit/ATM Card","EMI","Net Banking","PayPal"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        payTable.tableFooterView = UIView()
+        // Setting up textFields
+        textFieldDelegateSetUp()
+        //EXTENSION: - Hide keyborad
+        hideKeyboardWhenTappedAround()
         // Do any additional setup after loading the view.
     }
     
+    //MARK:- TextField Delegate Method
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return textARR.count
+    }
+    // Setting custom row height
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 55
+    }
+    //Did select row at
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -35,4 +53,12 @@ class depositViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
     }
     
+}
+
+extension depositViewController: UITextFieldDelegate {
+    
+    //Setup textfield delegates
+    func textFieldDelegateSetUp() {
+        amount.delegate = self
+    }
 }
