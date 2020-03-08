@@ -424,7 +424,7 @@
                     <view key="view" contentMode="scaleToFill" id="v0T-6V-s6J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FVw-kV-w2Z"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Food" image="Food" id="IfA-YY-tDV"/>
@@ -440,7 +440,7 @@
                     <view key="view" contentMode="scaleToFill" id="9Ij-Lk-biG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="PhL-kD-fIA"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="setting" id="KSa-IZ-n7u"/>
@@ -456,7 +456,7 @@
                     <view key="view" contentMode="scaleToFill" id="Asz-nH-H5f">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Uch-XM-LlR"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stationary" image="stationary" id="oSS-KQ-TLd"/>
@@ -472,14 +472,14 @@
                     <view key="view" contentMode="scaleToFill" id="8GL-rT-kna">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3Bo-Ln-fop"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Timeline" image="timeq" id="SJm-9U-KmY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghT-cQ-Uac" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="920"/>
+            <point key="canvasLocation" x="1777" y="904"/>
         </scene>
         <!--Rent-->
         <scene sceneID="bTU-gF-Hnx">
@@ -488,7 +488,7 @@
                     <view key="view" contentMode="scaleToFill" id="EbC-rd-Nr4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Ch2-ux-fJP"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Rent" image="Deposit" id="e0I-xG-zox"/>
