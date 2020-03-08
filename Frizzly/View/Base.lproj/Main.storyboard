@@ -416,7 +416,7 @@
             </objects>
             <point key="canvasLocation" x="1830" y="16"/>
         </scene>
-        <!--View Controller-->
+        <!--Set Limit-->
         <scene sceneID="Nz3-sO-7OZ">
             <objects>
                 <viewController id="IQM-A3-ejD" sceneMemberID="viewController">
@@ -436,11 +436,51 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="minimumTrackTintColor" red="0.91764705879999997" green="0.13725490200000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nZ-Pi-MJT">
+                                <rect key="frame" x="33" y="191" width="11" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMi-KH-m6K">
+                                <rect key="frame" x="298" y="191" width="39" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monthly Limit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7R5-7q-HAz">
+                                <rect key="frame" x="35" y="282" width="134" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OSH-L6-mRq">
+                                <rect key="frame" x="35" y="337" width="295" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="minimumTrackTintColor" red="0.91764705879999997" green="0.13725490200000001" blue="0.21176470589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="soX-LN-rsc">
+                                <rect key="frame" x="35" y="361" width="11" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="REU-XT-XAN">
+                                <rect key="frame" x="300" y="361" width="39" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93333333330000001" green="0.92156862750000001" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7Rd-92-HHw"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ev4-Cv-pC0"/>
+                    <navigationItem key="navigationItem" title="Set Limit" id="ev4-Cv-pC0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rhv-gc-f1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -527,23 +567,17 @@
             </objects>
             <point key="canvasLocation" x="4869.6000000000004" y="-384.55772113943033"/>
         </scene>
-        <!--Report-->
+        <!--Deposit-->
         <scene sceneID="mCq-RA-mnx">
             <objects>
                 <viewController id="X6M-MB-eeL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6kx-gl-Rf5">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back12" translatesAutoresizingMaskIntoConstraints="NO" id="t2H-0f-0Ak">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="708"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ASd-TT-r1r"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Report" image="report" id="Koj-EW-FFq"/>
+                    <tabBarItem key="tabBarItem" title="Deposit" image="Deposit" id="Koj-EW-FFq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGZ-dA-4FM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -612,6 +646,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Deposit" width="14" height="24"/>
         <image name="GSign" width="190" height="45"/>
         <image name="back12" width="375" height="737"/>
         <image name="limit" width="22" height="22"/>
