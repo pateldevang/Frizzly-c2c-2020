@@ -33,6 +33,7 @@
 		77F6EE912414B41100839C94 /* depositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6EE902414B41100839C94 /* depositViewController.swift */; };
 		77F6EE932414B5EF00839C94 /* depositTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6EE922414B5EF00839C94 /* depositTableViewCell.swift */; };
 		77F6EE952414BE2800839C94 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6EE942414BE2800839C94 /* settingsViewController.swift */; };
+		77F6EE972414CD5700839C94 /* settingstudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6EE962414CD5700839C94 /* settingstudentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		77F6EE902414B41100839C94 /* depositViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depositViewController.swift; sourceTree = "<group>"; };
 		77F6EE922414B5EF00839C94 /* depositTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = depositTableViewCell.swift; sourceTree = "<group>"; };
 		77F6EE942414BE2800839C94 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		77F6EE962414CD5700839C94 /* settingstudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingstudentViewController.swift; sourceTree = "<group>"; };
 		A0A1C1670A2F0E0C3B9BA096 /* Pods-Frizzly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frizzly.debug.xcconfig"; path = "Target Support Files/Pods-Frizzly/Pods-Frizzly.debug.xcconfig"; sourceTree = "<group>"; };
 		CD59DF784D4F31BD72280A2E /* Pods_Frizzly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frizzly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,6 +195,7 @@
 		77ACA2E6241422460048F1DE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				77F6EE962414CD5700839C94 /* settingstudentViewController.swift */,
 				77F6EE942414BE2800839C94 /* settingsViewController.swift */,
 				77F6EE902414B41100839C94 /* depositViewController.swift */,
 				77ACA2E7241422F90048F1DE /* LoginViewController.swift */,
@@ -378,6 +381,7 @@
 				77ACA2D524141F680048F1DE /* google+SignIn.swift in Sources */,
 				77ACA2D424141F680048F1DE /* haptic+Feedback.swift in Sources */,
 				77F6EE932414B5EF00839C94 /* depositTableViewCell.swift in Sources */,
+				77F6EE972414CD5700839C94 /* settingstudentViewController.swift in Sources */,
 				77ACA2D124141F680048F1DE /* keyboard+Hide.swift in Sources */,
 				77ACA2DE24141F840048F1DE /* constant+Functions.swift in Sources */,
 				77ACA2EC241423430048F1DE /* ProfileSetUpViewController.swift in Sources */,
