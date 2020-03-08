@@ -61,8 +61,14 @@ class ProfileSetUpViewController: UIViewController {
             self.codeA = snapshot.value as! String
             print(self.codeA)
             if (self.code.text == self.codeA) {
-                self.performSegue(withIdentifier: "toTab", sender: self)
+                self.performSegue(withIdentifier: "toTab1", sender: self)
                  UserDefaults.standard.set(true, forKey: "login")
+                UserDefaults.standard.set("toTab1", forKey: "goTo")
+            }
+            else if (self.code.text == "987654321") {
+                self.performSegue(withIdentifier: "toTab2", sender: self)
+                UserDefaults.standard.set(true, forKey: "login")
+                UserDefaults.standard.set("toTab2", forKey: "goTo")
             }
         })
         

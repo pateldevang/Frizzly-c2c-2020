@@ -25,6 +25,7 @@ extension AppDelegate {
         print(getUID())
         
         let loginstatus = UserDefaults.standard.bool(forKey: "login")
+        let goTo = UserDefaults.standard.string(forKey: "goTo")
         print("Login status=\(loginstatus)")
         if loginstatus == false {
             let firebaseAuth = Auth.auth()
@@ -39,8 +40,13 @@ extension AppDelegate {
             appDelegate.window?.rootViewController = VC
             appDelegate.window?.makeKeyAndVisible()
         }
-        else if loginstatus == true {
-            let tap = mainStoryboard.instantiateViewController(withIdentifier: "tapBar") as! UITabBarController
+        else if loginstatus == true && goTo == "toTab1" {
+            let tap = mainStoryboard.instantiateViewController(withIdentifier: "toTab1") as! UITabBarController
+            appDelegate.window?.rootViewController = tap
+            appDelegate.window?.makeKeyAndVisible()
+        }
+        else if loginstatus == true && goTo == "toTab2" {
+            let tap = mainStoryboard.instantiateViewController(withIdentifier: "toTab2") as! UITabBarController
             appDelegate.window?.rootViewController = tap
             appDelegate.window?.makeKeyAndVisible()
         }
