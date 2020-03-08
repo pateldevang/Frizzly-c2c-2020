@@ -15,6 +15,7 @@
 		7752CDDB24141D3500231341 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7752CDDA24141D3400231341 /* GoogleService-Info.plist */; };
 		77942B8624142741009D4D96 /* PermanentMarker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77942B8524142741009D4D96 /* PermanentMarker.ttf */; };
 		77942B8824142F16009D4D96 /* Poppins-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77942B8724142F16009D4D96 /* Poppins-Regular.otf */; };
+		77942B8A241470C3009D4D96 /* Poppins-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77942B89241470C2009D4D96 /* Poppins-Medium.otf */; };
 		77ACA2CF24141F680048F1DE /* checkNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C524141F680048F1DE /* checkNetwork.swift */; };
 		77ACA2D024141F680048F1DE /* custom+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C624141F680048F1DE /* custom+Navigation.swift */; };
 		77ACA2D124141F680048F1DE /* keyboard+Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77ACA2C724141F680048F1DE /* keyboard+Hide.swift */; };
@@ -42,6 +43,7 @@
 		7752CDDA24141D3400231341 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		77942B8524142741009D4D96 /* PermanentMarker.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PermanentMarker.ttf; sourceTree = "<group>"; };
 		77942B8724142F16009D4D96 /* Poppins-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.otf"; sourceTree = "<group>"; };
+		77942B89241470C2009D4D96 /* Poppins-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.otf"; sourceTree = "<group>"; };
 		77ACA2C524141F680048F1DE /* checkNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = checkNetwork.swift; sourceTree = "<group>"; };
 		77ACA2C624141F680048F1DE /* custom+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "custom+Navigation.swift"; sourceTree = "<group>"; };
 		77ACA2C724141F680048F1DE /* keyboard+Hide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "keyboard+Hide.swift"; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				77942B8724142F16009D4D96 /* Poppins-Regular.otf */,
+				77942B89241470C2009D4D96 /* Poppins-Medium.otf */,
 				77942B8524142741009D4D96 /* PermanentMarker.ttf */,
 			);
 			path = Fonts;
@@ -272,6 +275,7 @@
 				77942B8824142F16009D4D96 /* Poppins-Regular.otf in Resources */,
 				7752CDD3241411B700231341 /* LaunchScreen.storyboard in Resources */,
 				7752CDDB24141D3500231341 /* GoogleService-Info.plist in Resources */,
+				77942B8A241470C3009D4D96 /* Poppins-Medium.otf in Resources */,
 				7752CDD0241411B700231341 /* Assets.xcassets in Resources */,
 				77942B8624142741009D4D96 /* PermanentMarker.ttf in Resources */,
 				7752CDCE241411B400231341 /* Main.storyboard in Resources */,
